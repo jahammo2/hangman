@@ -306,10 +306,10 @@ svg {
 	z-index: 2;
 /*	opacity: 0;*/
 	-webkit-transform: rotate(1.5deg) translateX(-2px);
-	-webkit-animation: stringswing 3s ease-in infinite;
-	   -moz-animation: stringswing 3s ease-in infinite;
-	     -o-animation: stringswing 3s ease-in infinite;
-	        animation: stringswing 3s ease-in infinite;
+	-webkit-animation: stringswing 3s ease-in-out infinite;
+	   -moz-animation: stringswing 3s ease-in-out infinite;
+	     -o-animation: stringswing 3s ease-in-out infinite;
+	        animation: stringswing 3s ease-in-out infinite;
 }
 
 @-webkit-keyframes stringswing {
